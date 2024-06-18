@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
     private static final int READ_MEDIA_IMAGES_PERMISSION_CODE = 1001;
     private static final int READ_EXTERNAL_STORAGE_PERMISSION_CODE = 1002;
 
-    private static final String UPLOAD_URL = "http://10.0.2.2:8000/api_root/Post/";
+    private static final String UPLOAD_URL = "http://yuhwan.pythonanywhere.com/api_root/Post/";
     Uri imageUri = null;
 
     private final ExecutorService executorService = Executors.newSingleThreadExecutor();
